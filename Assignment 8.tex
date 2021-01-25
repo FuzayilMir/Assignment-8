@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multicol}
+\title{Assignment-8\\ Latex Report}
+\author{Fuzayil Bin Afzal Mir}
+\date{25/01/2021}
+\begin{document}
+\begin{multicols}{2}
+	\maketitle
+	
+	
+	\newpage
+	\begin{itemize}
+	    \item \Large\textbf{Exercise 2.68}
+	\end{itemize}
+	\section{By elementary operations,find the inverse of the matrix
+	A=	\begin{pmatrix}
+		 1 & 2\\
+		 2 & -1\\
+    	\end{pmatrix}}\\$$
+    	
+\subsection{Solution} \\
+\subsubsection{Inverse}
+	We know that,\\
+	A=IA \\
+	
+	\begin{pmatrix}
+		 1 & 2\\
+		 2 & -1\\
+    	\end{pmatrix} =  \begin{pmatrix}
+		 1 & 0\\
+		 0 & 1\\
+    	\end{pmatrix} A       \\$$$$\\
+    Using operation \\
+    
+    R_2 --> R_2 - 2R_1\\
+    
+    \begin{pmatrix}
+		 1 & 2\\
+		 0 & -5\\
+    	\end{pmatrix} =  \begin{pmatrix}
+		 1 & 0\\
+		 -2 & 1\\
+    	\end{pmatrix} A       \\$$$$\\
+    	
+        R_2 --> \dfrac{-1}{5}R_2\\
+     
+     \begin{pmatrix}
+		 1 & 2\\
+		 0 & 1\\
+    	\end{pmatrix} =  \begin{pmatrix}
+		 1 & 0\\
+		 \\
+		 \dfrac{2}{5} & \dfrac{-1}{5}\\
+    	\end{pmatrix} A       \\$$$$\\
+    
+        R_1 --> R_1 - 2R_2\\
+        
+    \begin{pmatrix}
+		 1 & 0\\
+		 0 & 1\\
+    	\end{pmatrix} =  \begin{pmatrix}
+		 \dfrac{1}{5} & \dfrac{2}{5}\\
+		 \\
+		 \dfrac{2}{5} & \dfrac{-1}{5}\\
+    	\end{pmatrix} A       \\$$$$\\
+    	
+    	
+    	\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+
+    	
+    
+    Since,I=A^{-1}A\\
+    therefore,\\
+    	 A^{-1} =  \begin{pmatrix}
+		 \dfrac{1}{5} & \dfrac{2}{5}\\
+		 \\
+		 \dfrac{2}{5} & \dfrac{-1}{5}\\
+    	\end{pmatrix}\\
+    	
+    	
+    	
+    	
+    \end{multicols}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\vfill\emph{The End}
+	\end{document}
